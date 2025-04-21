@@ -21,7 +21,7 @@
       redhat.satellite.content_view_version:
         username: "{{ foreman_admin_username }}"
         password: "{{ foreman_admin_passwd }}"
-        server_url: "https://{{ inventory_hostname }}"
+        server_url: "https://10.0.0.172
         organization: "{{ foreman_organization }}"
         content_view: "{{ foreman_content_view }}"
         description: "Publishment-{{ foreman_cv_end_date }}"
